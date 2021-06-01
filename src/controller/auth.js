@@ -1,6 +1,6 @@
 import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcrypt';
 import shortid from 'shortid';
 
 const createAccessToken = (_id, role) => {
